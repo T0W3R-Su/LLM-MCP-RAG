@@ -1,6 +1,3 @@
-def main():
-    print("Hello from llm-mcp-rag!")
+from src.utils import pretty
 
-
-if __name__ == "__main__":
-    main()
+pretty.log_title("Hello from LLM-MCP-RAG!", "LLM-MCP-RAG")
